@@ -17,7 +17,7 @@ export class MenuComponent implements OnInit {
 
   iconItems = [
     {text: 'Redial', icon: 'dialpad'},
-    {text: 'Check voicemail', icon: 'voicemail', disabled: true},
+    {text: 'Check voicemail', icon: 'voicemail'},
     {text: 'Disable alerts', icon: 'notifications-off'}
   ];
 
