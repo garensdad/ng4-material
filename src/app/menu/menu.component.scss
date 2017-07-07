@@ -1,0 +1,15 @@
+.demo-menu {
+  display: flex;
+  flex-flow: row wrap;
+
+  .menu-section {
+    width: 300px;
+    margin: 20px;
+  }
+
+  .end-icon {
+    align-items: flex-end;
+  }
+
+  .mat-toolbar { min-height: 100px ;}
+}
